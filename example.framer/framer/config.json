@@ -1,0 +1,8 @@
+{
+  "updateDelay" : 0.3,
+  "deviceScale" : -1,
+  "deviceOrientation" : -90,
+  "contentScale" : 1,
+  "sharedPrototype" : 1,
+  "deviceType" : "fullscreen"
+}
