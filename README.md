@@ -10,6 +10,8 @@ The function `flipCard.flipCard()` will take in three parameters
 # Example
 [![Flip Card Example](flipCardExample.gif)](http://share.framerjs.com/5ggio6opb1iw/)
 
+<a href="http://share.framerjs.com/5ggio6opb1iw/">[![Flip Card Example](flipCardExample.gif)]</a>
+
 # Instructions
 
 1. Include the module
