@@ -1,4 +1,4 @@
-exports.flipEffect = (front, back, perspective) ->
+exports.flipEffect = (front, back, perspective, flipCurve) ->
     # Create a new container layer
     perspectiveLayer = new Layer
         width: front.width + 100
@@ -30,20 +30,20 @@ exports.flipEffect = (front, back, perspective) ->
         front: {opacity: 1}
         back: {opacity: 0}
     front.states.animationOptions =
-        curve: "spring(300,20,0)"
+        curve: flipCurve
     front.states.switchInstant("front")
     
     back.states.add
         front: {opacity: 0}
         back: {opacity: 1}
     back.states.animationOptions =
-        curve: "spring(300,20,0)"
+        curve: flipCurve
     
     container.states.add
         front: {rotationY: 0}
         back: {rotationY: 180}
     container.states.animationOptions =
-        curve: "spring(300,20,0)"
+        curve: flipCurve
     container.states.switchInstant("front")
     container.on Events.Click, ->
         this.states.next(["back","front"])

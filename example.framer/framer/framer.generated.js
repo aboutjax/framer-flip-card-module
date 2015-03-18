@@ -9,8 +9,8 @@ window.Framer.Defaults.DeviceView = {
 };
 
 window.FramerStudioInfo = {
-  "deviceImagesUrl" : "file:\/\/\/Applications\/Framer%20Studio.app\/Contents\/Resources\/DeviceImages\/",
-  "documentTitle" : "flipCard.framer"
+  "deviceImagesUrl" : "file:\/\/\/Users\/jordan\/Desktop\/framer%20downloads\/Framer%20Studio.app\/Contents\/Resources\/DeviceImages\/",
+  "documentTitle" : "example.framer"
 };
 
 Framer.Device = new Framer.DeviceView();
