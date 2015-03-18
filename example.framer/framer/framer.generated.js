@@ -9,7 +9,7 @@ window.Framer.Defaults.DeviceView = {
 };
 
 window.FramerStudioInfo = {
-  "deviceImagesUrl" : "file:\/\/\/Users\/jordan\/Desktop\/framer%20downloads\/Framer%20Studio.app\/Contents\/Resources\/DeviceImages\/",
+  "deviceImagesUrl" : "file:\/\/\/Applications\/Framer%20Studio.app\/Contents\/Resources\/DeviceImages\/",
   "documentTitle" : "example.framer"
 };
 

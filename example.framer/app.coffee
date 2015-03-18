@@ -13,4 +13,4 @@ frontLayer = new Layer
 	x:0, y:0, width:615, height:470, image:"images/front.png"
 
 # flipEffect input: (front, back, perspective )
-flipCard.flipEffect(frontLayer, backLayer, 1600, "spring(300,20,0)")
+flipCard.flipCard(frontLayer, backLayer, 1600, "spring(300,20,0)")

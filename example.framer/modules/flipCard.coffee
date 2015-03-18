@@ -1,4 +1,4 @@
-exports.flipEffect = (front, back, perspective, flipCurve) ->
+exports.flipCard = (front, back, perspective, flipCurve) ->
     # Create a new container layer
     perspectiveLayer = new Layer
         width: front.width + 100
