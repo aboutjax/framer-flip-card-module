@@ -13,12 +13,12 @@ The function `flipCard.flipCard()` will take in three parameters
 
 # Instructions
 
-1. Include the module
+1.Include the module
 ```
 flipCard = require "flipCard"
 ```
 
-2. Add a front image layer + back image layer + the perspective
+2.Add a front image layer + back image layer + the perspective
 ```
 flipCard.flipEffect(frontLayer, backLayer, 1600, "spring(300,20,0)")
 ```
