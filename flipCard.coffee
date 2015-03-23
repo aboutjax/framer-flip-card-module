@@ -6,6 +6,7 @@ exports.flipCard = (front, back, perspective, flipCurve) ->
         height: front.height + 100
         backgroundColor: "transparent"
     perspectiveLayer.perspective = perspective
+    perspectiveLayer.center()
     
     container = new Layer
         width: front.width
@@ -48,6 +49,7 @@ exports.flipCard = (front, back, perspective, flipCurve) ->
     container.on Events.Click, ->
         this.states.next(["back","front"])
         front.states.next(["back","front"])
+    return perspectiveLayer
 
 # Custom Positioning
 exports.flipCardCustomPosition = (front, back, xpos, ypos, perspective, flipCurve) ->
