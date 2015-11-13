@@ -1,12 +1,12 @@
 exports.flipCard = (front, back, perspective, flipCurve) ->
     # Create a new container layer
     perspectiveLayer = new Layer
-        width: front.width + 100
-        height: front.height + 100
+        width: Screen.width
+        height: Screen.height
         backgroundColor: "transparent"
     perspectiveLayer.perspective = perspective
     perspectiveLayer.center()
-    
+
     container = new Layer
         width: front.width
         height: front.height
@@ -15,14 +15,14 @@ exports.flipCard = (front, back, perspective, flipCurve) ->
 
     # Center the container
     container.center()
-    
+
     #Set superLayer for both front and back layers
     back.superLayer = container
     front.superLayer = container
-    
+
     # Rotate the back image on intial
     back.rotationY = 180
-    
+
     #######################
     # States
     #######################
@@ -32,13 +32,13 @@ exports.flipCard = (front, back, perspective, flipCurve) ->
     front.states.animationOptions =
         curve: flipCurve
     front.states.switchInstant("front")
-    
+
     back.states.add
         front: {opacity: 0}
         back: {opacity: 1}
     back.states.animationOptions =
         curve: flipCurve
-    
+
     container.states.add
         front: {rotationY: 0}
         back: {rotationY: 180}
