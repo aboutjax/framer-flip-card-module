@@ -14,12 +14,14 @@ The function `flipCard.flipCard()` will take in four parameters
 # Instructions
 
 1.Include the module
-```
+
+```javascript
 flipCard = require "flipCard"
 ```
 
 2.Add a `front image layer` + `back image layer` + `the perspective` + `animation curve`
-```
+
+```javascript
 flipCard.flipEffect(frontLayer, backLayer, 1600, "spring(300,20,0)")
 ```
 
