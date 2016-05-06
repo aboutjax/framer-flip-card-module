@@ -9,7 +9,7 @@ The function `flipCard.flipCard()` will take in four parameters
 ![What it does](http://i.imgur.com/GBWvMkm.png)
 
 # Example
-[![Flip Card Example](http://www.giphy.com/gifs/3oEjHAXzDRbMqxWH7y)](http://share.framerjs.com/fj0zw6iuch5p/)
+[![Flip Card Example](http://i.giphy.com/3oEjHAXzDRbMqxWH7y.gif)](http://share.framerjs.com/fj0zw6iuch5p/)
 
 # Instructions
 
