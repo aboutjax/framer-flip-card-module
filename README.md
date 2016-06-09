@@ -22,7 +22,7 @@ flipCard = require "flipCard"
 2.Add a `front image layer` + `back image layer` + `the perspective` + `animation curve`
 
 ```javascript
-flipCard.flipEffect(frontLayer, backLayer, 1600, "spring(300,20,0)")
+flipCard.flipCard(frontLayer, backLayer, 1600, "spring(300,20,0)")
 ```
 
 note: 1600 is the perspective number used in the example above. The smaller the number the more perspective you get.
