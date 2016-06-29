@@ -4,6 +4,7 @@ exports.flipCard = (front, back, perspective, flipCurve) ->
         width: Screen.width
         height: Screen.height
         backgroundColor: "transparent"
+        clip: true
     perspectiveLayer.perspective = perspective
     perspectiveLayer.center()
 
@@ -12,6 +13,7 @@ exports.flipCard = (front, back, perspective, flipCurve) ->
         height: front.height
         backgroundColor: "transparent"
         superLayer: perspectiveLayer
+        clip: true
 
     # Center the container
     container.center()
